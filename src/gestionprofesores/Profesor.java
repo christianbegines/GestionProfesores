@@ -19,6 +19,7 @@ public class Profesor implements Serializable{
     private int edad;
 
     public Profesor(String nombre, String dni, String departamento, int edad) {
+        
         this.nombre = nombre;
         this.dni = dni;
         this.departamento = departamento;
