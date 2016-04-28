@@ -46,6 +46,7 @@ public class GestionProfesores {
          System.out.println(gestion.mostrarProfesores("FOL"));
          System.out.println(gestion.mostrarProfesores("FOL").size());
          System.out.println(gestion.mostrarProfesores("BDS"));
+         System.out.println(gestion.clasificarProfesores(39));
          
     }
     

@@ -80,7 +80,7 @@ public class ArchivoProfesores {
         boolean res=true;
         try (ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(archivo.toFile()));
                 ObjectOutputStream s = new ObjectOutputStream(new FileOutputStream(archivo.toFile()));) {
-            Profesor p = null;
+            Profesor p ;
             while ((p = (Profesor) entrada.readObject()) != null) {
                 if (p.getEdad() >= edad) {
                     lista.add(p);
